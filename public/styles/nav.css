@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120px;
+  height: 100px;
   width: 100vw;
   background-color: #4056A1;
   color: #FFFFFF;
@@ -11,7 +11,7 @@ nav {
 }
 
 .logo {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-family: 'Bungee', cursive;
   margin-bottom: 1rem;
   align-self: flex-end;
@@ -25,6 +25,6 @@ nav i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1.5rem;
-  margin-top: 2rem;
+  font-size: 1rem;
+  margin-top: 4rem;
 }
