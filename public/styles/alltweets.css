@@ -1,4 +1,4 @@
-.all-tweets { 
+.tweets{ 
 
   width: 100%; 
   border: 3px  solid black;
@@ -14,19 +14,19 @@
  
   
  
-  .all-tweets p {
+  .tweets p {
   border-bottom: 4px solid;
   
   }
  
 
  
-  .all-tweets i{
+  .tweets i{
     color:#4056A1;
     float:right;
     margin-right: 1em;
   }
-  .all-tweets i:hover{
+  .tweets i:hover{
 
     color: brown;
   }
