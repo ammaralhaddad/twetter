@@ -1,0 +1,45 @@
+.all-tweets { 
+
+  width: 100%; 
+  border: 3px  solid black;
+  margin-top: 20px;
+  padding: 20px;
+
+  }
+ 
+  .tweet-header{
+  display:flex;
+  justify-content: space-between;
+  }
+ 
+  
+ 
+  .all-tweets p {
+  border-bottom: 4px solid;
+  
+  }
+ 
+
+ 
+  .all-tweets i{
+    color:#4056A1;
+    float:right;
+    margin-right: 1em;
+  }
+  .all-tweets i:hover{
+
+    color: brown;
+  }
+
+  .tweet-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+
+  }
+
+  .tweet-footer h5 {
+margin: 0;
+
+  }

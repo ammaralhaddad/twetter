@@ -1,8 +1,8 @@
 header {
+  margin-top: 100px;
   height: 400px;
   width: 100%;
   background-color: goldenrod;
-  background-image: url("../images/brushed-alum.png");
 }
 
 header div {
