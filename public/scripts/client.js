@@ -18,7 +18,10 @@ $("form").submit(function(event){
         url:"/tweets",
         data: $(this).serialize() 
 
-      }).then(loadTweets);
+      }).then(()=>{
+        loadTweets()
+        $("#tweet-text").val("")
+      });
 
     }
 
