@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 70%;
   padding: 20px;
 }
 
@@ -16,6 +16,12 @@ textarea {
   overflow: hidden;
   background-color: transparent;
   margin-bottom: 1rem;
+  align-content: left;
+}
+
+#tweet-text{
+text-align: left;
+
 }
 
 button {

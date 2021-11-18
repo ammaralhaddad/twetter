@@ -1,9 +1,9 @@
 .tweets{ 
-
   width: 100%; 
   border: 3px  solid black;
   margin-top: 20px;
   padding: 20px;
+  box-shadow:  1px 3px;
 
   }
  

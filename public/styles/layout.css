@@ -15,24 +15,60 @@
  */
 
 body {
+  color: #545149;
+  background-color: #dddddd;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+}
+
+
+
+
+.container {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #545149;
-  background-color: #f4f1ec;
-  font-size: 24px;
-  margin: 0 ;
+  text-align: center;
+  width: 100%;
+  background-color: #dddddd;
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
 
- .container {
+.tweets-container{
+min-width: 100%;
 
-  width: 60%;
-  margin: 50px 0px;
-  display: flex;
-  flex-direction: column;
+}
 
- }
+ @media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    height: 500px;
+    margin-top: 120px;
+   
+  }
+
+
+
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+   
+  }
+
+  header {
+    width: 50%;
+  }
+
+  .new-tweet {
+    min-width:100%;
+
+
+  }
+
+  
+  
+  } 
+
+  

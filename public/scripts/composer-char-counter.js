@@ -9,7 +9,9 @@ $("#tweet-text").on("input", function(input){
   console.log(tweetLength)
   if (tweetLength > maxLength) {
     $('#number').css('color', 'red');
+    // return alert ('your tweet is too long')
   }
+  
 });
 
 });
