@@ -1,15 +1,15 @@
 
-
 $(document).ready(function() {
 
 $("#tweet-text").on("input", function(input){
   const maxLength = 140
   const tweetLength = $(this).val().length
-  $('#number').text(maxLength-tweetLength);
-  console.log(tweetLength)
-  if (tweetLength > maxLength) {
+  const remaningChar = maxLength - tweetLength;
+  $('#number').text(remaningChar);
+  if (remaningChar < 0) {
     $('#number').css('color', 'red');
-    // return alert ('your tweet is too long')
+  }else {
+    $('#number').css('color', 'black');
   }
   
 });
